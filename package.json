@@ -1,0 +1,33 @@
+{
+  "name": "node-SOLID-DDD",
+  "version": "1.0.0",
+  "description": "IOC+AOP+SOLID+DDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/passerByBo/node-SOLID-DDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/passerByBo/node-SOLID-DDD/issues"
+  },
+  "homepage": "https://github.com/passerByBo/node-SOLID-DDD#readme",
+  "dependencies": {
+    "@node-ts/bus-messages": "^0.3.0",
+    "@node-ts/ddd": "^0.1.6",
+    "@node-ts/ddd-types": "^0.1.4",
+    "inversify": "^5.0.5",
+    "inversify-binding-decorators": "^4.0.0",
+    "inversify-koa-utils": "^1.0.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/koa-router": "^7.4.1",
+    "koa-router": "^10.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es2017",//
+        "lib": ["es6", "DOM"],//
+        "types": ["reflect-metadata"],//ts类型装饰
+        "module": "commonjs",//模块编译的类型
+        "moduleResolution": "node",//node模块
+        "experimentalDecorators": true,//装饰器
+        "emitDecoratorMetadata": true//元编程
+    }
+}
